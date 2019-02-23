@@ -10,3 +10,9 @@ ImaysNet은 독자들이 책 내용을 이해하는데 중점을 두어 만들어져 있는 기초적인 수준
 
 이 소스를 참고해서 새로운 프로그램을 만드셔도 되고요, 
 마음대로 고쳐 쓰셔도 됩니다. ImaysNet이라는 이름도 마음대로 바꾸셔도 됩니다.
+
+# 리눅스에서 빌드하기
+
+Visual Studio 2017이나 최신 버전에서 본 프로젝트를 열고 빌드하십시오.
+가령 https://devblogs.microsoft.com/cppblog/targeting-windows-subsystem-for-linux-from-visual-studio/ 를 참고하십시오.
+
