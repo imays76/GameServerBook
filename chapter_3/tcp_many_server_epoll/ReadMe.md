@@ -1,9 +1,9 @@
-´Ù¼öÀÇ Å¬¶óÀÌ¾ðÆ®·ÎºÎÅÍ ¼ö½ÅÇÏ¿© ´Ù½Ã ±×´ë·Î È¸½ÅÇÏ´Â Áï echo¸¦ ÇÏ´Â ¼­¹öÀÔ´Ï´Ù.
+ë‹¤ìˆ˜ì˜ í´ë¼ì´ì–¸íŠ¸ë¡œë¶€í„° ìˆ˜ì‹ í•˜ì—¬ ë‹¤ì‹œ ê·¸ëŒ€ë¡œ íšŒì‹ í•˜ëŠ” ì¦‰ echoë¥¼ í•˜ëŠ” ì„œë²„ìž…ë‹ˆë‹¤.
 
-ÀÌ°ÍÀ» ½ÇÇàÇÑ ÈÄ tcp_many_client¸¦ ½ÇÇàÇÏ½Ê½Ã¿À.
+ì´ê²ƒì„ ì‹¤í–‰í•œ í›„ tcp_many_clientë¥¼ ì‹¤í–‰í•˜ì‹­ì‹œì˜¤.
 
-# ¸®´ª½º¿¡¼­ ºôµåÇÏ±â
+# ë¦¬ëˆ…ìŠ¤ì—ì„œ ë¹Œë“œí•˜ê¸°
 
-Visual Studio 2017ÀÌ³ª ÃÖ½Å ¹öÀü¿¡¼­ º» ÇÁ·ÎÁ§Æ®¸¦ ¿­°í ºôµåÇÏ½Ê½Ã¿À.
-°¡·É https://devblogs.microsoft.com/cppblog/targeting-windows-subsystem-for-linux-from-visual-studio/ ¸¦ Âü°íÇÏ½Ê½Ã¿À.
+Visual Studio 2019ì´ë‚˜ ìµœì‹  ë²„ì „ì—ì„œ ë³¸ í”„ë¡œì íŠ¸ë¥¼ ì—´ê³  ë¹Œë“œí•˜ì‹­ì‹œì˜¤.
+ê°€ë ¹ https://devblogs.microsoft.com/cppblog/targeting-windows-subsystem-for-linux-from-visual-studio/ ë¥¼ ì°¸ê³ í•˜ì‹­ì‹œì˜¤.
 
