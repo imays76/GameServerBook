@@ -33,7 +33,7 @@ Socket::Socket(SocketType socketType)
 	else 
 	{
 #ifdef _WIN32
-		m_fd = WSASocket(AF_INET, SOCK_STREAM, 0, NULL, 0, WSA_FLAG_OVERLAPPED);
+		m_fd = WSASocket(AF_INET, SOCK_DGRAM, 0, NULL, 0, WSA_FLAG_OVERLAPPED);
 #else
 		m_fd = socket(AF_INET, SOCK_DGRAM, IPPROTO_UDP);
 #endif
