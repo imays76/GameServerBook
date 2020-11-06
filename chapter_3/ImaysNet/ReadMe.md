@@ -1,18 +1,20 @@
 # ImaysNet
 
-ImaysNet�� ���������� �� ������ �����ڵ带 ���� ���� ��Ʈ��ũ ���̺귯���Դϴ�. 
-ImaysNet�� ���ڵ��� å ������ �����ϴµ� ������ �ξ� ������� �ִ� �������� ������ ���̺귯���Դϴ�.
-���� ������ ���� Ư���� �ֽ��ϴ�.
+ImaysNet은 배현직님이 본 도서의 예제코드를 위해 만든 네트워크 라이브러리입니다. 
+ImaysNet은 독자들이 책 내용을 이해하는데에 중점을 두어 만들어져 있는 기초적인 수준의 라이브러리입니다.
+따라서 다음과 같은 특성이 있습니다.
 
-* ¥���� ����ó�� � ���ؼ��� �Ϻ� �����Ǿ� �ֽ��ϴ�.
-* ������ ��� �ϳ� �ϳ��� if-else ��ſ� throw-catch�� ����߽��ϴ�. 
-  �ǻ��ڵ�� ���� ���� �ڵ��� ���� ���̸� ���̱� ���ؼ��Դϴ�.
+* 짜잘한 예외처리 등에 대해서는 의도적으로 생략되어 있습니다.
+* 비정상 결과 하나 하나에 if-else 대신에 throw-catch를 사용했습니다. 
+  의사코드와 실제 구동 코드의 외형 차이를 줄이고, 이로 인한 독자의 책 내용 이해를 더 수월하게 하기 위해서입니다.
 
-�� �ҽ��� �����ؼ� ���ο� ���α׷��� ����ŵ� �ǰ���, 
-������� ���� ���ŵ� �˴ϴ�. ImaysNet�̶�� �̸��� ������� �ٲټŵ� �˴ϴ�.
+이 소스를 참고해서 새로운 프로그램을 만드셔도 되고요, 마음대로 고쳐 쓰셔도 됩니다. ImaysNet이라는 이름도 마음대로 바꾸셔도 됩니다. 
 
-# ���������� �����ϱ�
+# 리눅스에서 빌드하기
 
-Visual Studio 2017�̳� �ֽ� �������� �� ������Ʈ�� ���� �����Ͻʽÿ�.
-���� https://devblogs.microsoft.com/cppblog/targeting-windows-subsystem-for-linux-from-visual-studio/ �� �����Ͻʽÿ�.
+Visual Studio 2017이나 최신 버전에서 본 프로젝트를 열고 빌드하십시오.
+가령 https://devblogs.microsoft.com/cppblog/targeting-windows-subsystem-for-linux-from-visual-studio/ 를 참고하십시오.
 
+# 주의사항
+
+본 라이브러리는 독자들이 책 내용을 이해하는데에 초점을 맞추었다보니, 코드 이해에 방해될 수 있는 요소는, 설령 꼼꼼한 에러값 핸들링 등 코드의 안정성을 높인다 하더라도, 의도적으로 배제했습니다. 따라서 본 라이브러리를 본업 프로젝트로 수정없이 적용하는 것은 권장하지 않습니다. 한편, 본 라이브러리의 업데이트 방향 또한 코드 이해에 방해될 수 있는 요소는 배제하는 방향으로 갑니다.
